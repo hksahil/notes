@@ -1,0 +1,64 @@
+TIP:
+
+function:
+return krwa pkka
+console.log() sirf testing ke lie hota h
+
+JS:before calling  a fn/or callback,define this function and its required variables/
+
+
+To select any DOM element:
+document.querySelector("#btn1")
+
+To listen to click events:
+document.querySelector("#btn1").addEventListener("click",functionname,false)
+
+To get the user typed value:
+<input type ="text" id="inputfield"/>
+To grab users value use document.querySelector("#inputfield").value
+
+To write to DOM:
+1.Write empty <h2 id="anything"></h2> or <p></p> or anything
+2.Use document.querySelector("#h2").textcontent
+3.If you want to write html there,
+document.querySelector("#h2").innerHTML=new
+
+new ko pehle define karde as:
+const new=`
+<div>Hello${name1}</div>
+<div>Hello${name2}</div>
+
+`
+
+
+
+Starting me kuch values nahi Chahiye:
+String:
+const s1=""
+
+Array:
+const myarray=[]
+
+
+Object:
+const obj1={}
+
+
+Putting values in them:
+Object:
+obj1.name=""sahil"
+obj1.description="Lorem"
+
+Array:
+myarray.push(obj1)
+
+
+Concatenation:
+`Hello ${var}`
+
+Loops:
+const arr=[1,2,3]
+
+arr.map((item)=>{console.log(item);return item+1}) //1,2,3 2,3,4
+In the aray,you get one item at a time and u tellki what u want ot do with that item.
+All this is done through arrow fn inside a map fn.MAP ALWAYS TAKS ARROW FN
